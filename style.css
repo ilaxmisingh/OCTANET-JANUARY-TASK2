@@ -8,3 +8,7 @@ body{
 p{
     color:aliceblue;
 }
+.button {
+    margin: auto;
+    padding: 100px;
+}
