@@ -3,28 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="style.css">
-    <title>To -do-list for Octanet january task 2</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Task Management</title>
 </head>
 <body>
-    <h1>TO-DO-LIST</h1>
-    <p>Each day I will accomplish one thing on my to list.</p>
-    <label for="Add new note">
-        <b>Add new note</b>
-        <br>
-       </label>
-       <input type="character"
-       placeholder="Add your notes here"
-       name="Add new note" id ="Add new note" required>
- <button type="button">Save and Submit</button>
-<p>Recently Added</p>
-<label for="Characters">
-   </label>
-   <input type="characters"
-   placeholder=" Previous Note"
-   name="recentnode" id ="recentnode" required>
 
+  <div class="task-container" id="taskContainer">
+    <!-- Tasks will be dynamically added here -->
+  </div>
 
+  <button onclick="addTask()">Add Task</button>
 
+  <script src="script.js"></script>
 </body>
 </html>
